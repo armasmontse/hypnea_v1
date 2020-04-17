@@ -1,2 +1,43 @@
-/* -- Textos -- */
+/* ----- * ----- */
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 
+/* ----- Grid ----- */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.row {
+    height: 100%;;
+}
+
+.col-12 {
+    width: 100%;
+    height: 100%;
+}
+
+/* ----- Fuentes ----- */
+.f__gabriel {
+    font-family: 'Gabriel Sans';
+    font-weight: 900;
+    font-style: normal;
+}
+
+.f__gilroy_light {
+    font-family: 'Gilroy';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.f__gilroy_extrabold {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-style: normal;
+}

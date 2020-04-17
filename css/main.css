@@ -1,15 +1,16 @@
-body {
-	padding: 0;
-	margin: 0;
-}
-
-/* Header */
-
-.fondogris{
+/* ----- Header ----- */
+.particulas{
 	background-color: #25B5BB;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100vh;
+}
+.particulas__logo {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
 }
 
 #particles-js{
@@ -19,31 +20,27 @@ body {
     display: flex;
 }
 
-/* Footer */
+/* ----- Footer ----- */
 footer{
 	background-color: #FFF;
-	position: absolute;
-	bottom: 0;
-	right: 0;
 	width: 100%;
 	padding: 10px 0;
 }
+.redes {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+.redes ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0;
+	padding: 0;
+}
 
-@media (max-width: 767px){
-	header{
-		font-size: 80%;
-	}
-	.flex-column {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
+/* ----- Media queries ----- */
 
-	.flex-column > .col-xs-6 > h4{	
-		text-align: center !important;
-	}
-
-	.flex-column > .col-xs-6 {	
-		width: 95%;
-	}
+@media (max-width: 768px){
+	
 }
