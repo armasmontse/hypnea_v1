@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gabriel Sans';
+    src: url('Gabriel-Sans-Black.eot');
+    src: url('Gabriel-Sans-Black.eot?#iefix') format('embedded-opentype'),
+        url('Gabriel-Sans-Black.woff2') format('woff2'),
+        url('Gabriel-Sans-Black.woff') format('woff'),
+        url('Gabriel-Sans-Black.ttf') format('truetype'),
+        url('Gabriel-Sans-Black.svg#Gabriel-Sans-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
