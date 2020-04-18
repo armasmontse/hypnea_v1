@@ -12,12 +12,105 @@
 	justify-content: center;
 
 }
+.particulas__img {
+	width: 55%;
+	margin: 0 auto;
+}
 
 #particles-js{
 	width: 100vw;
     height: 100vh;
     position: absolute;
     display: flex;
+}
+/* ----- Somos ----- */
+.somos {
+	padding: 100px 90px 160px;
+}
+.somos__title{
+	text-align: center;
+	font-size: 50px;
+    letter-spacing: 15px;
+}
+.somos__parr {
+	text-align: center;
+	font-size: 28px;
+	line-height: 40px;
+}
+.somos__flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-size: 35px;
+	padding: 30px 40px 0;
+	letter-spacing: 3px;;
+}
+
+iframe {
+	display: flex;
+	margin: 0 auto;
+}
+
+/* ----- Somos ----- */
+.descanso {
+	height: 800px;
+	background-image: url('../img/fondos/descanso.jpg');
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* ----- Servicios ----- */
+.servicios {
+	padding: 80px 90px 160px;
+	background-image: url('../img/fondos/fondo_opacity3.png');
+	background-size: cover;
+	background-position: initial;
+	background-repeat: no-repeat;
+}
+.servicios__title {
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 15px;
+	margin-bottom: 80px;
+}
+.servicios__row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+.servicios__parr {
+	font-size: 24px;
+}
+.servicios__img {
+	width: 200px;
+}
+
+/* ----- HYPNEATE ----- */
+.hypneate {
+	padding: 80px;
+	background-image: url('../img/fondos/fondo_hypneate.jpg');
+	background-color: #000;
+    background-position: center;
+    background-size: 22%;
+    background-repeat: no-repeat;
+}
+.hypneate__text {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hypneate__title {
+	font-size: 40px;
+	color: #FFF;
+	letter-spacing: 30px; 
+}
+.hypneate__parr {
+	font-size: 28px;
+	color: #FFF;
+	margin-top: -10px;
 }
 
 /* ----- Footer ----- */
