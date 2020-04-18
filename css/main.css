@@ -51,7 +51,7 @@ iframe {
 	margin: 0 auto;
 }
 
-/* ----- Somos ----- */
+/* ----- Descanso ----- */
 .descanso {
 	height: 800px;
 	background-image: url('../img/fondos/descanso.jpg');
@@ -62,7 +62,7 @@ iframe {
 
 /* ----- Servicios ----- */
 .servicios {
-	padding: 80px 90px 160px;
+	padding: 80px 90px 60px;
 	background-image: url('../img/fondos/fondo_opacity3.png');
 	background-size: cover;
 	background-position: initial;
@@ -78,7 +78,11 @@ iframe {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 60px;
+	margin-bottom: 80px;
+}
+.servicios__ttl {
+	font-size: 28px;
+	margin-bottom: 0;
 }
 .servicios__parr {
 	font-size: 24px;
